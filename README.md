@@ -63,8 +63,12 @@ Apri il progetto e premi **Run** su `Main.java`.
 
 ### Con Gradle da terminale
 ```bash
-./gradlew jar
-java -cp build/libs/ModelliDiEsecuzione-1.0-SNAPSHOT.jar Main
+git clone https://github.com/KevinFerrari0505/ModelliDiEsecuzione.git
+cd ModelliDiEsecuzione
+.\gradlew build      # Windows
+./gradlew build      # Linux/macOS
+.\gradlew run        # Windows
+./gradlew run         # Linux/macOS
 ```
 
 ---
